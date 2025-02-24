@@ -9,8 +9,8 @@ SELECT
        call_data.start_time,
        call_data.duration,
        CASE
-         WHEN call_data.target_number LIKE '+XXX%' THEN SUBSTRING(call_data.target_number, 5)
-         WHEN call_data.target_number LIKE 'XXX%' THEN SUBSTRING(call_data.target_number, 4)
+         WHEN call_data.target_number LIKE '+372%' THEN SUBSTRING(call_data.target_number, 5)
+         WHEN call_data.target_number LIKE '372%' THEN SUBSTRING(call_data.target_number, 4)
          ELSE call_data.target_number
        END AS target_number,
        call_data.call_direction, 
