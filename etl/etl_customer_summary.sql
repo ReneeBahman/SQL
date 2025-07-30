@@ -1,7 +1,7 @@
 -- ETL Procedure: Enhanced Banking Model (Customer Loan Summary)
 -- Description: Stored procedure version of an ETL pipeline using 5 OLTP tables (Sybase SQL compatible)
 -- Author: Renee Bahman (with ChatGPT)
--- Use Case: Sybase-ready version for Luminor role (SQL/ETL demonstration)
+-- Use Case: Sybase-ready version for SQL/ETL demonstration
 
 -- Step 0: DDL for OLTP Source Tables
 IF EXISTS (SELECT 1 FROM sysobjects WHERE name = 'customers') DROP TABLE customers;
