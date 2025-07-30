@@ -9,6 +9,9 @@ A reporting output table (rpt_customer_loan_summary)
 
 A SQL view (vw_customer_loan_summary) for analytics tools like Tableau or Power BI
 
+💼 Originally designed as part of an ETL support demonstration project. Suitable for Sybase/SQL Server environments in banking, telecom, or enterprise data teams.
+
+
 🏗️ Data Model (OLTP)
 The ETL is built on a sample banking data model including the following tables:
 
