@@ -1,0 +1,1 @@
+date(t.check_dt) between t1.algkpv and isnull(t1.loppkpv ,'2099-01-01')
